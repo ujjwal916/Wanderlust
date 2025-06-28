@@ -1,0 +1,74 @@
+body {
+  font-family: "Poetsen One", sans-serif   !important;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}    
+.container{
+   flex: 1; /* This pushes the footer down */
+}        
+           /* footer styling  */
+.navbar{
+    height :5rem;
+    background-color: aliceblue;
+}
+.fa-compass{
+    color: #fe424d;
+    font-size:2rem;
+}
+.nav-link{
+    color:black !important;
+}
+.f-info-links a{
+    text-decoration: none;
+    color: black;
+}
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-socials i{
+    font-size: 1.2rem;
+    margin-right: 1.2rem;
+
+}
+.f-info-socials, .f-info-links{
+    width:100%;
+    align-items: center;
+}
+
+.f-info{
+    text-align: center;
+    height:8rem;
+    background-color:azure;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: space-between;
+    padding: 1rem;
+
+}
+  /* card styling */
+
+.card-listing{
+    border: none !important;
+    padding-bottom: 2rem;
+   
+}
+.card-img-top{
+    border-radius: 1rem;
+    width: 100% !important;
+    height:50%;
+    object-fit: cover;
+}
+.card-body{
+    padding: 0 !important;
+}
+            /* card effect   */
+/* .card-img-overlay{
+    opacity: 0;
+}
+.card-img-overlay:hover{
+    opacity: 0.2 ;
+    background-color: white;
+} */
